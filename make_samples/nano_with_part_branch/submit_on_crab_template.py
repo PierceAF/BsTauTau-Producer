@@ -15,14 +15,15 @@ config.General.workArea = 'crab_jobs/TEMPLATE_DATASET_TEMPLATE_DATE'
 
 config.section_('Data')
 config.Data.publication = False
-config.Data.outLFNDirBase = '/store/group/cmst3/group/bpark/friti/bstautau/nano_with_part_TEMPLATE_DATE/TEMPLATE_DATASET_TEMPLATE_CONDITIONS'
+config.Data.outLFNDirBase = '/store/group/phys_bphys/ytakahas/bstautau/nano_with_part_TEMPLATE_DATE/TEMPLATE_DATASET_TEMPLATE_CONDITIONS'
 config.Data.inputDBS = 'global'
 
 config.section_('JobType')
 config.JobType.pluginName = 'Analysis'
 config.JobType.psetName = 'TEMPLATE_PRODUCER'
-config.JobType.maxMemoryMB = 5000
+config.JobType.maxMemoryMB = 3000
 config.JobType.inputFiles = ["CMSSW_13_0_10/src/data"]
+config.JobType.numCores=1
 
 config.section_('User')
 config.section_('Site')
@@ -48,4 +49,4 @@ globaltag = 'TEMPLATE_GT'
 config.JobType.outputFiles = ['step5.root']
 
 print(config)
-#submit(config)
+submit(config)

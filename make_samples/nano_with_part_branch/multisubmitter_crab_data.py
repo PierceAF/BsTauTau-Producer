@@ -18,15 +18,15 @@ input_datasets={
   #"egammaA":"/EGamma/Run2018A-UL2018_MiniAODv2_GT36-v1/MINIAOD",
   #"egammaB":"/EGamma/Run2018B-UL2018_MiniAODv2_GT36-v1/MINIAOD",
   #"egammaC":"/EGamma/Run2018C-UL2018_MiniAODv2_GT36-v1/MINIAOD",
-  "egammaD":"/EGamma/Run2018D-UL2018_MiniAODv2_GT36-v3/MINIAOD",
+  #"egammaD":"/EGamma/Run2018D-UL2018_MiniAODv2_GT36-v3/MINIAOD",
   #"muonEGA":"/MuonEG/Run2018A-UL2018_MiniAODv2_GT36-v1/MINIAOD",
   #"muonEGB":"/MuonEG/Run2018B-UL2018_MiniAODv2_GT36-v1/MINIAOD",
   #"muonEGC":"/MuonEG/Run2018C-UL2018_MiniAODv2_GT36-v1/MINIAOD",
   #"muonEGD":"/MuonEG/Run2018D-UL2018_MiniAODv2_GT36-v1/MINIAOD",
-  #"SingleMuA":"/SingleMuon/Run2018A-UL2018_MiniAODv2_GT36-v2/MINIAOD",
-  #"SingleMuB":"/SingleMuon/Run2018B-UL2018_MiniAODv2_GT36-v2/MINIAOD",
-  #"SingleMuC":"/SingleMuon/Run2018C-UL2018_MiniAODv2_GT36-v3/MINIAOD",
-  #"SingleMuD":"/SingleMuon/Run2018D-UL2018_MiniAODv2_GT36-v2/MINIAOD"
+  "SingleMuA":"/SingleMuon/Run2018A-UL2018_MiniAODv2_GT36-v2/MINIAOD",
+  "SingleMuB":"/SingleMuon/Run2018B-UL2018_MiniAODv2_GT36-v2/MINIAOD",
+  "SingleMuC":"/SingleMuon/Run2018C-UL2018_MiniAODv2_GT36-v3/MINIAOD",
+  "SingleMuD":"/SingleMuon/Run2018D-UL2018_MiniAODv2_GT36-v2/MINIAOD"
 }
 
 
